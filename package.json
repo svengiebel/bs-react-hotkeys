@@ -1,0 +1,29 @@
+{
+  "name": "bs-react-hotkeys",
+  "version": "0.0.1",
+  "description": "reasonml bindings for react-hotkeys",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "reasonml",
+    "binding",
+    "bucklescript",
+    "react",
+    "hotkey",
+    "react-hotkeys",
+    "keys"
+  ],
+  "author": "svengiebel",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "dependencies": {
+    "react-hotkeys": "^1.1.4",
+    "reason-react": "^0.4.2"
+  }
+}
